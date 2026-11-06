@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at top, #321052, #090510 65%);
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.profile {
+  width: 100%;
+  max-width: 390px;
+  text-align: center;
+  padding: 35px 25px;
+  border: 1px solid #963cff66;
+  border-radius: 25px;
+  background: #130b20dd;
+  box-shadow: 0 0 35px #8c20ff33;
+}
+
+.avatar {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  border: 3px solid #bd70ff;
+  box-shadow: 0 0 25px #a020ff;
+  object-fit: cover;
+}
+
+h1 {
+  margin-bottom: 8px;
+  color: #d9a5ff;
+  text-shadow: 0 0 15px #a020ff;
+}
+
+p { color: #c6afd8; }
+
+.link {
+  display: block;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #a342ff;
+  border-radius: 12px;
+  background: #29133d;
+  color: white;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.link:hover {
+  background: #812bd1;
+  box-shadow: 0 0 20px #a020ff;
+  transform: scale(1.04);
+}
+
+footer {
+  margin-top: 25px;
+  color: #9875b1;
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+<div class="profile">
+
+  <img class="avatar"
+  src="file:///C:/Users/batkc/Downloads/r%20logo.jpg"
+  alt="Profil fotoğrafı">
+
+  <h1>YOUR NAME</h1>
+  <p>Welcome to my world 💜</p>
+
+  <a class="link" href="https://instagram.com/" target="_blank">📸 Instagram</a>
+  <a class="link" href="https://discord.com/" target="_blank">💬 Discord</a>
+  <a class="link" href="https://telegram.org/" target="_blank">✈️ Telegram</a>
+  <a class="link" href="https://tiktok.com/" target="_blank">🎵 TikTok</a>
+
+  <footer>Made with Right.f3💜</footer>
+</div>
+</body>
+</html>
